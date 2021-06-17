@@ -1,4 +1,5 @@
 var array =[1,2,3,4,5]
+var array2 = [{course:'php',price :400}, {course:'js', price : 500},{course:'ruby', price :600}]
 
 
 var result =array.filter(function(value,index, array){
