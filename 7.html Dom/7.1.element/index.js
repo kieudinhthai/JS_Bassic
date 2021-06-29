@@ -8,7 +8,7 @@ var header2 = document.getElementsByTagName('h1')
 console.log(header2);
 
 var header3 = document.querySelector('.heading:first-child')
-console.log(header3);
+console.log({heading: header3});
 
 var header4 = document.querySelectorAll('.heading')
 console.log(header4);

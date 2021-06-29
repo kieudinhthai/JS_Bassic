@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+  <style>
+    ul{
+      display: none;
+    }
+
+    input:focus ~ ul {
+      display: block;
+    }
+  </style>
+  </head>
+  <body>
+    <div class="container">
+    <h1 onclick="console.log(this)">DOM events 1</h1>
+    <h1 id="h1Element">DOM events 2</h1>
+    <h1 class="h1Element">
+      <span>DOM events 3</span>
+    </h1>
+
+    <!-- input-->
+    
+      <div class="form-group">
+        <label for=""></label>
+        <input type="text"
+          class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+        <small id="helpId" class="form-text text-muted">Help text</small>
+      </div>
+         <div class="form-check">
+           <label class="form-check-label">
+             <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue" checked>
+             Display value
+           </label>
+         </div>
+         <div class="form-group">
+           <label for=""></label>
+           <select class="form-control" name="" id="">
+             <option value="value 1">value 1</option>
+             <option value="value 2">value 2</option>
+             <option value="value 3">value 3</option>
+           </select>
+         </div>
+
+         <div>
+           <a href="https://www.youtube.com/watch?v=4ZnQur6rewg&list=PL_-VfJajZj0VgpFpEVFzS5Z-lkXtBe-x5&index=79&ab_channel=F8Official">Youtube</a>
+           <a href="https://www.facebook.com/">Facebook</a>
+         </div>
+
+        
+           <label for=""></label>
+           <input  type="text"
+             class="form-control input " name="" id="" aria-describedby="helpId" placeholder="search">
+           <small id="helpId" class="form-text text-muted">Help text</small>
+        
+
+         <ul>
+           <li>JavaScript</li>
+           <li>PHP</li>
+           <li>Ruby</li>
+         </ul>
+
+         <div id="click" >DIV 
+        <button>Click me</button>
+         </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="./index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
